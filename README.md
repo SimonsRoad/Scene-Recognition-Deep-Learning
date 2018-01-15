@@ -15,23 +15,11 @@ Previous version of Scene Recognition done with Bag of Words model paired with m
 
 <h2> Project 6 / Deep Learning</h2>
 
-<p>
-In this project, i felt by far and large that I was able to learn a massive amount about deep learning and it's practical
-and performant applications in the context of computer vision.
-
-Extra Credit:
-<ul>
-    <li>
-        Augment dataset with Sun Data and train
-    </li>
-</ul>
-
-</p>
 <div style="clear:both">
 <h3>Part 1</h3>
 
 <p>
-I found part 1 to be massively insightful about how much little changes like Jittering data, even with something as simple as reflection.
+I found that jittering data, even with something as simple as reflection, can be used to augment my dataset and results in notable improvements in performance.
 Here I saw that the approach I used in the last project was not something that was specific to training with an svm classifier, but a technique that
 is universally usable in all instances of image processing. Scenes and faces are not the only things that can be mirrored, off the top of my head I can think about how simple object recognition
 can leverage something like this.
